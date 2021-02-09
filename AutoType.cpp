@@ -4,17 +4,17 @@
 #include <iostream>
 #include <vector>
 
-auto add(double x, double y) ->short
+double add(double x, double y)
 {
     auto z = x + y;
 
     if (z > 15.)
     {
-        return float(z);
+        return z;
     }
     else
     {
-        return float(z);
+        return z;
     }
 }
 

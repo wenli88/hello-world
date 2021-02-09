@@ -2,7 +2,7 @@
 #include <vector>
 #include <array>
 
-auto add(double x, double y) -> short;
+double add(double x, double y);
 int ConvertConstructor();
 int TestExplicitKeyWord();
 int TestEnumClass();
